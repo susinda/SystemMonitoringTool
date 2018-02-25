@@ -1,0 +1,24 @@
+{
+  "name": "sarMemDataAlert",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "logtime",
+      "type": "STRING"
+    },
+    {
+      "name": "Free",
+      "type": "INT"
+    },
+    {
+      "name": "Used",
+      "type": "INT"
+    },
+    {
+      "name": "Used_Percentage",
+      "type": "FLOAT"
+    }
+  ]
+}

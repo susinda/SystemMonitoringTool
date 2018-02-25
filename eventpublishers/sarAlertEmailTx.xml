@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventPublisher name="sarAlertEmailTx" statistics="disable"
+  trace="disable" xmlns="http://wso2.org/carbon/eventpublisher">
+  <from streamName="sarMemDataAlert" version="1.0.0"/>
+  <mapping customMapping="disable" type="text"/>
+  <to eventAdapterType="email">
+    <property name="email.subject">ALERT - Memory Increased</property>
+    <property name="email.address">susinda@gmail.com</property>
+    <property name="email.type">text/plain</property>
+  </to>
+</eventPublisher>

@@ -1,0 +1,20 @@
+{
+  "name": "sarMemDataRT",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "mem_free",
+      "type": "INT"
+    },
+    {
+      "name": "mem_used",
+      "type": "INT"
+    },
+    {
+      "name": "mem_used_percentage",
+      "type": "FLOAT"
+    }
+  ]
+}

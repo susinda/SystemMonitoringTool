@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventReceiver name="sarHttpTextRx" statistics="disable" trace="disable" xmlns="http://wso2.org/carbon/eventreceiver">
+    <from eventAdapterType="http">
+        <property name="transports">http</property>
+        <property name="basicAuthEnabled">false</property>
+    </from>
+    <mapping customMapping="disable" type="text"/>
+    <to streamName="sarMemDataRT" version="1.0.0"/>
+</eventReceiver>
